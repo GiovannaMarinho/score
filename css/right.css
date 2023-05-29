@@ -36,3 +36,16 @@ img {
 button {
   margin-top: 50px;
 }
+
+@media (max-width: 750px) {
+  .right {
+    margin-right: 60px;
+    margin-top: 5px;
+  }
+  .titulo-principal-right {
+    margin-bottom: 20px;
+  }
+  button {
+    margin-top: 20px;
+  }
+}

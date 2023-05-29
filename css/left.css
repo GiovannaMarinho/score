@@ -43,3 +43,37 @@
 p {
   margin-top: 15px;
 }
+
+@media (max-width: 750px) {
+  .left {
+    width: 390px;
+    height: 360px;
+    border-radius: 0 0 50px 50px;
+  }
+  .conteudo-left {
+    margin: 20px 50px;
+    display: grid;
+    justify-items: center;
+  }
+  .circulo {
+    margin-top: 20px;
+    width: 135px;
+    height: 135px;
+  }
+  .valor-principal {
+    margin-top: 25px;
+    width: 60px;
+    height: 58px;
+  }
+  .valor-secundario {
+    margin-top: -15px;
+    width: 43px;
+    height: 17px;
+  }
+  .titulo-secundario {
+    margin-top: 5px;
+  }
+  p {
+    margin-top: 5px;
+  }
+}
