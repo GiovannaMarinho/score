@@ -1,0 +1,38 @@
+.right {
+  display: grid;
+  justify-content: end;
+  margin-right: 36px;
+  margin-top: 40px;
+}
+
+.titulo-principal-right {
+  margin-bottom: 50px;
+}
+
+.valores-reaction {
+  background-color: #FFF6F5;
+}
+
+.valores-memory {
+  background-color: #FFFBF2;
+}
+
+.valores-verbal {
+  background-color: #F2FBFA;
+}
+
+.valores-visual {
+  background-color: #F3F3FD;
+}
+
+img {
+  margin-left: 20px;
+}
+
+.valor-primario {
+  margin-right: 20px;
+}
+
+button {
+  margin-top: 50px;
+}

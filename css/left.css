@@ -1,0 +1,45 @@
+.left {
+  display: grid;
+  text-align: center;
+  width: 400px;
+  height: 584px;
+  background: linear-gradient(to bottom, #6743FF, #332DE9);
+  border-radius: 50px;
+}
+
+.conteudo-left {
+  margin: 40px 50px;
+  display: grid;
+  justify-items: center;
+}
+
+.circulo {
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #4c23ca, #4734f0);
+}
+
+.valor-principal {
+  margin-top: 45px;
+  width: 80px;
+  height: 77px;
+}
+
+.valor-secundario {
+  margin-bottom: 45px;
+  width: 49px;
+  height: 19px;
+}
+
+.titulo-secundario {
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 15px;
+}
