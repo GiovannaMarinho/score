@@ -42,6 +42,12 @@ button {
   background-color: #303b59;
 }
 
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #6743FF, #332DE9);
+  transition: .3s;
+}
+
 @media (max-width: 750px) {
   main {
     margin-top: 0px;
